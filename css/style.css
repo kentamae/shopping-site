@@ -136,6 +136,10 @@ ul.sp_menu_toggle {
           margin: 24px 0 30px; } }
       #contents .container #new_items h2 img, #contents .container #popular_items h2 img, #contents .container #recent h2 img, #contents .container #list h2 img {
         width: 100%; }
+        @media (min-width: 768px) {
+          #contents .container #new_items h2 img, #contents .container #popular_items h2 img, #contents .container #recent h2 img, #contents .container #list h2 img {
+            height: 15px;
+            object-fit: cover; } }
     #contents .container #new_items .flex, #contents .container #popular_items .flex, #contents .container #recent .flex, #contents .container #list .flex {
       display: flex;
       justify-content: space-between;
@@ -172,6 +176,10 @@ ul.sp_menu_toggle {
           width: 100%; } }
       #contents .container #shopping_guide h2 img {
         width: 100%; }
+        @media (min-width: 768px) {
+          #contents .container #shopping_guide h2 img {
+            height: 15px;
+            object-fit: cover; } }
     #contents .container #shopping_guide h3, #contents .container #shopping_guide h4 {
       color: #887f69;
       margin: 0 auto 15px;

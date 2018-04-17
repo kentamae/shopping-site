@@ -178,6 +178,10 @@ ul.sp_menu_toggle{
         }
         img {
           width: 100%;
+          @media (min-width: 768px) {
+            height: 15px;
+            object-fit: cover;
+          }
         }
       }
       .flex {
@@ -224,6 +228,10 @@ ul.sp_menu_toggle{
         }
         img {
           width: 100%;
+          @media (min-width: 768px) {
+            height: 15px;
+            object-fit: cover;
+          }
         }
       }
       h3 {
